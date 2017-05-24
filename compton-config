@@ -1,6 +1,7 @@
-opacity-rule = ["75:class_g = 'Termite'"]
-opacity-rule = ["75:class_g = 'termite'"]
+opacity-rule = ["75:class_g = 'termite'"] # Set termite to be 75% transparent
 
+# Set windowns that aren't visible to be completely transparent.
+# This is only needed for windows managers such as i3 that don't minimize hidden windows.
 opacity-rule = [
     "0:_NET_WM_STATE@:32a *= '_NET_WM_STATE_HIDDEN_"
 ];
