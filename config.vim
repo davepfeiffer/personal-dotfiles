@@ -4,7 +4,6 @@
 syntax enable
 set t_Co=256
 colorscheme monokai
-" let g:rehash256 = 1
 hi Normal ctermfg=231 ctermbg=235
 
 " tabs vs spaces
