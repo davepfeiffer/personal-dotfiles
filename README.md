@@ -8,6 +8,8 @@ Create symbolic links to the appropriate locations for the configs with:
 
 `ln /path/to/termite.ini ~/.config/termite/config`
 
+`ln /path/to/compton-config ~/.compton.conf`
+
 `ln /path/to/monokai.vim ~/.vim/colors/monokai.vim`
 
 `ln /path/to/config.vim ~/.vimrc`
