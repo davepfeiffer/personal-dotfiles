@@ -4,7 +4,7 @@ These configs are pretty messy and not complete use at your own risk. There is a
 ## Usage
 Create symbolic links to the appropriate locations for the configs with:
 
-'ln /path/to/polybar-config ~/.config/polybar/config'
+'''ln /path/to/polybar-config ~/.config/polybar/config'''
 
-'ln /path/to/polybar-config ~/.config/polybar/config'
+'''ln /path/to/polybar-config ~/.config/polybar/config'''
 
