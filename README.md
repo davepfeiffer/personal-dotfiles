@@ -27,9 +27,9 @@ _Note:_ compton, polybar, and termite all require additional steps to install an
 
 ## Setup Example
 
-![Main Desktop With Neofetch](./neofetch-example.jpg)
+![Main Desktop With Neofetch](./neofetch-example.png)
 
-![Example Workflow With Vim](./workflow-example.jpg)
+![Example Workflow With Vim](./workflow-example.png)
 
-![Example With All Three Monitors](./full-example.jpg)
+![Example With All Three Monitors](./full-example.png)
 
