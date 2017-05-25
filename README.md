@@ -3,6 +3,7 @@ This repository contains personal configurations (aka dotfiles) for the followin
 
 - [polybar](https://github.com/jaagr/polybar) for a customizable status bar.
 - [termite](https://wiki.archlinux.org/index.php/termite) lightweight 256 true color (with transparency) terminal emulator.
+- [fish](http://fishshell.com/) shell program. See my [fish-functions](https://github.com/davepfeiffer/fish-functions) repository for my configuration.
 - [compton](https://wiki.archlinux.org/index.php/Compton) standalone compositor for transparency and pretty windows (not needed for most window managers).
 - [vim](http://www.vim.org/) console text editor (only the color configs should be of interest, much better config resources exist for everything else).
 
@@ -23,4 +24,12 @@ Create symbolic links to the appropriate locations for the configs with:
 `ln /path/to/config.vim ~/.vimrc`
 
 _Note:_ compton, polybar, and termite all require additional steps to install and set up with your window manager. Consult their documentation if required.
+
+## Setup Example
+
+![Main Desktop With Neofetch](./neofetch-example.jpg)
+
+![Example Workflow With Vim](./workflow-example.jpg)
+
+![Example With All Three Monitors](./full-example.jpg)
 
