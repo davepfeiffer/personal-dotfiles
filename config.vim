@@ -2,36 +2,35 @@
 
 " colors
 syntax enable
-set t_Co=256
-colorscheme monokai
-hi Normal ctermfg=231 ctermbg=235
+colorscheme elflord
 
 " tabs vs spaces
-set tabstop=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=0
 set expandtab
+set smarttab
+set autoindent
 
 " UI
 set number
-set cursorline
+set relativenumber
+
+set wrap
+set linebreak
+set nolist
+set textwidth=0
+set wrapmargin=0
 
 set showcmd
 
 filetype indent on
 
 set wildmenu
-
 set showmatch
-
 set hlsearch
 
-" Keymapping
-nnoremap j h
-nnoremap k j
-nnoremap l k
-nnoremap ; l
-
-" regex style begin/end
+" change regex style begin/end
 nnoremap B ^
 nnoremap E $
 nnoremap $ <nop>
