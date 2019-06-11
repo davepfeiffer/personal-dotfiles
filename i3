@@ -185,6 +185,9 @@ smart_gaps on
 for_window [class="^.*$"] border pixel 0
 
 exec_always --no-startup-id polybar landscape1
-exec_always --no-startup-id compton -f --vsync opengl
-exec_always --no-startup-id feh --bg-scale /home/dave/.background
+exec_always --no-startup-id compton -f 
+exec_always --no-startup-id feh --bg-scale Pictures/fox-flat-landscape-forest-trees-nature.jpg personal-dotfiles/flatforest.png Pictures/elk-flat-forest.jpg
+
+# launch comms apps
+exec steam-native -silent  
 

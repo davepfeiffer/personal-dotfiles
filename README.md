@@ -23,6 +23,8 @@ Create symbolic links to the appropriate locations for the configs with:
 
 `ln /path/to/config.vim ~/.vimrc`
 
+`ln /path/to/neovim.vim ~/.config/nvim/init.vim`
+
 _Note:_ compton, polybar, and termite all require additional steps to install and set up with your window manager. Consult their documentation if required.
 
 ## Setup Example

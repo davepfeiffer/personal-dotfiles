@@ -2,7 +2,7 @@
 
 " colors
 syntax enable
-colorscheme elflord
+colorscheme SpacegrayEighties
 
 " tabs vs spaces
 set tabstop=2
