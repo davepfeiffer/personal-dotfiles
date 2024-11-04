@@ -3,7 +3,7 @@
 # This is only needed for windows managers such as i3 that don't minimize hidden windows.
 opacity-rule = [
     "75:class_g = 'polybar'",
-    "75:class_g = 'termite'",
+    "75:class_g = 'alacritty'",
     "0:_NET_WM_STATE@:32a *= '_NET_WM_STATE_HIDDEN_'"
 ];
 

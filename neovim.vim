@@ -1,23 +1,4 @@
 " ~/.vimrc
-
-call plug#begin('~/.vim/plugged/')
-
-" colorschemes
-Plug 'git://github.com/hhff/SpacegrayEighties.vim.git'
-Plug 'arcticicestudio/nord-vim'
-Plug 'jacoborus/tender.vim'
-
-" lang specific
-" - rust
-Plug 'racer-rust/vim-racer'
-Plug 'rust-lang/rust.vim'
-
-" general
-Plug 'terryma/vim-multiple-cursors'
-Plug 'itchyny/lightline.vim'
-
-call plug#end()
-
 " buffer
 set autoread
 
@@ -26,7 +7,7 @@ set mouse=a
 
 " colors
 syntax enable
-colorscheme tender
+" colorscheme tender
 
 " tabs vs spaces
 set tabstop=8

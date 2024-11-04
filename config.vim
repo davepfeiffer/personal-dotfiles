@@ -2,7 +2,7 @@
 
 " colors
 syntax enable
-colorscheme SpacegrayEighties
+" colorscheme SpacegrayEighties
 
 " tabs vs spaces
 set tabstop=2
